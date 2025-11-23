@@ -31,3 +31,12 @@ class NoteManager:
         notes = self.storage.load(self.storage_key)
         notes = [n for n in notes if n["id"] != note_id]
         self.storage.save(self.storage_key, notes)
+    
+    def get_note_by_id(self, note_id):
+        notes = self.storage.load(self.storage_key)
+        for note in notes:
+            if note["id"] == note_id:
+                return note
+        return None
+    def list_notes(self):
+        return self.storage.load(self.storage_key)
