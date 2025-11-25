@@ -5,5 +5,12 @@
         "description": "finish my final project on a pkms system",
         "due_date": "2025/11/24",
         "done": true
+    },
+    {
+        "id": "5c00ecf3-7382-4684-9fce-c6cda102368d",
+        "title": "Write script for video",
+        "description": "write a script for final project video",
+        "due_date": "2025/11/24",
+        "done": true
     }
 ]

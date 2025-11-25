@@ -1,0 +1,22 @@
+[project]
+name = "tasks3"
+version = "0.1.0"
+description = "PKMS Task Manager - Iteration 3"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tasks3"]
+
+[project.scripts]
+tasks3 = "tasks3:main"
